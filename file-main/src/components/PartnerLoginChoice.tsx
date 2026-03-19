@@ -7,7 +7,7 @@ import { safeStorage } from '../utils/safeStorage';
 import svgPaths from "../imports/svg-fpideojqow";
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import GoogleLoginButton from './Auth/GoogleLogin';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { getMyCafe } from '../services/cafeService';
 
 interface PartnerLoginChoiceProps {

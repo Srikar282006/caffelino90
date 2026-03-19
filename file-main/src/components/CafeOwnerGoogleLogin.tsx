@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import GoogleLoginButton from './Auth/GoogleLogin';
 import { safeStorage } from '../utils/safeStorage';
